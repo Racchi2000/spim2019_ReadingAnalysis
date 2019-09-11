@@ -1,4 +1,5 @@
-function regist(){
-    
-    document.cookie = "idWorks="
+let register
+function regist(register){
+    document.cookie = "idWorks=" +register;
+    console.log(register);
 }

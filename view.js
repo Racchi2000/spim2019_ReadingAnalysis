@@ -1,6 +1,10 @@
+var allcookies = document.cookie;
+var pos = allcookies.indexOf("idWorks=");
+console.log(document.cookie);
+
 let currentPageRight = 1;
 let currentPageLeft = 2;
-let idWorks = 1;
+let idWorks = pos;
 let lastPage = 8;
 function draw(){
     
@@ -12,7 +16,7 @@ function draw(){
     leftpage_img.setAttribute("style", "height:100vh;width:auto;");
 
     leftpage_a.appendChild(leftpage_img);
-    
+
     //右側ページの描写
     let rightpage_a = document.getElementById("rightpage_a");
     let rightpage_img = document.createElement("img");
