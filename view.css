@@ -1,0 +1,19 @@
+img.imgRight {
+    height: 100vh;
+    width: auto;
+}
+img.imgLeft {
+    height: 100vh;
+    width: auto;
+}
+html, body {
+    height: 100%;
+}
+/* #imgRight {
+    height: 100vh;
+    width: auto;
+}
+#imgLeft {
+    height: 100vh;
+    width: auto;
+} */
